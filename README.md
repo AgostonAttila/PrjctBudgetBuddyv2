@@ -16,20 +16,20 @@ A simple personal finance application demonstrating modern web and mobile develo
 ┌─────────────────────────────────────────────────────────┐
 │                    Backend Servers                       │
 ├─────────────────────────────────────────────────────────┤
-│  • ASP.NET Core WebAPI (.NET 10) - Identity Endpoints    │   │
+│  • ASP.NET Core WebAPI (.NET 10) - Identity Endpoints   │
 └─────────────────────────────────────────────────────────┘
                             ▲
                             │
         ┌───────────────────┼───────────────────┐
         │                   │                   │
-┌───────▼───────┐  ┌────────▼────────┐   ┌──────▼──────┐
-│   Web Clients       │  │  Desktop Apps         │   │ Mobile Apps      │
-├───────────────┤  ├─────────────────┤   ├─────────────┤
-│ • Blazor      │        │ • MAUI Hybrid          │  │ • MAUI           │
-│   Server      │        │ • Electron*            │  │ • React          │
-│ • Blazor      │        └─────────────────┘   │   Native         │
-│   WebAssembly │                                     │                  │
-│ • Angular     │                                     └─────────────┘
+┌───────▼───────┐  ┌────────▼────────┐  ┌──────▼──────┐
+│   Web Clients │  │  Desktop Apps   │  │ Mobile Apps │
+├───────────────┤  ├─────────────────┤  ├─────────────┤
+│ • Blazor      │  │ • MAUI Hybrid   │  │ • MAUI /Ionic     │
+│   Server      │  │ • Electron*/Tauri     │  │ • React     │
+│ • Blazor      │  └─────────────────┘  │   Native    │
+│   WebAssembly │                       │             │
+│ • Angular     │                       └─────────────┘
 │ • React       │
 │   (Vite)      │
 │ • Next.js     │
