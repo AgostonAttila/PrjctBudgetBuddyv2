@@ -25,8 +25,9 @@ A simple personal finance application demonstrating modern web and mobile develo
 ┌───────▼───────┐  ┌────────▼────────┐  ┌──────▼──────┐
 │   Web Clients │  │  Desktop Apps   │  │ Mobile Apps │
 ├───────────────┤  ├─────────────────┤  ├─────────────┤
-│ • Blazor      │  │ • MAUI Hybrid   │  │ • MAUI /Ionic     │
-│   Server      │  │ • Electron*/Tauri     │  │ • React     │
+│ • Blazor      │  │ • MAUI Hybrid   │  │ • MAUI      │
+│               │  │ • Electron/Tauri│  │ • Ionic     │
+│   Server      │  │                 │  │ • React     │
 │ • Blazor      │  └─────────────────┘  │   Native    │
 │   WebAssembly │                       │             │
 │ • Angular     │                       └─────────────┘
@@ -35,7 +36,7 @@ A simple personal finance application demonstrating modern web and mobile develo
 │ • Next.js     │
 │   (CSR)       │
 │ • Vue.js*     │
-│ • Ionic*      │
+│               │
 └───────────────┘
 
 * Planned for future implementation
